@@ -31,7 +31,7 @@ Current logged-in user
 ---
 
 # Project Structure
-
+```text
 linux-system-monitor/
 ├── src/
 │   └── monitor.py
@@ -41,6 +41,7 @@ linux-system-monitor/
 ├── tests/
 ├── README.md
 └── .gitignore
+```
 
 ---
 
