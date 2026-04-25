@@ -55,7 +55,9 @@ Prerequisites
 # Run the Project
 
 git clone https://github.com/danushteja20-boop/linux-system-monitor.git
+
 cd linux-system-monitor
+
 python3 src/monitor.py
 
 ---
