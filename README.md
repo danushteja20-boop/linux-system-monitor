@@ -54,28 +54,30 @@ Prerequisites
 
 # Run the Project
 
-git clone https://github.com/YOUR-USERNAME/linux-system-monitor.git
+git clone https://github.com/danushteja20-boop/linux-system-monitor.git
 cd linux-system-monitor
 python3 src/monitor.py
 
 ---
 
 # Demo
-
-"Demo" (assets/demo.png)
-
----
-
-🧾 Code Explanation
-
-- "top -b -n1 | head -5" → CPU and system summary
-- "free -h" → Memory usage
-- "df -h" → Disk usage
-- "whoami" → Current user
+![Demo](assets/demo.png)
 
 ---
 
-#Limitations
+# Code Explanation
+
+"top -b -n1 | head -5" → CPU and system summary
+
+"free -h" → Memory usage
+
+"df -h" → Disk usage
+
+"whoami" → Current user
+
+---
+
+# Limitations
 
 Uses system commands (not native Python metrics)
 
@@ -85,7 +87,7 @@ Output is not structured
 
 ---
 
-🔥 Future Improvements
+# Future Improvements
 
 Real-time monitoring
 
@@ -99,6 +101,6 @@ Web dashboard
 
 ---
 
-📜 License
+# License
 
 This project is open-source and available under the MIT License.
